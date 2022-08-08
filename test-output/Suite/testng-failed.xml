@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_GIT(failed)">
+    <classes>
+      <class name="gitTest.TC3_DEL_delRepo">
+        <methods>
+          <include name="deleteRepo"/>
+        </methods>
+      </class> <!-- gitTest.TC3_DEL_delRepo -->
+      <class name="gitTest.TC1_POST_NewRepo">
+        <methods>
+          <include name="newRepo"/>
+        </methods>
+      </class> <!-- gitTest.TC1_POST_NewRepo -->
+      <class name="gitTest.TC2_GET_VerifyRepo">
+        <methods>
+          <include name="verifyRepo"/>
+        </methods>
+      </class> <!-- gitTest.TC2_GET_VerifyRepo -->
+    </classes>
+  </test> <!-- Test_GIT(failed) -->
+</suite> <!-- Failed suite [Suite] -->
